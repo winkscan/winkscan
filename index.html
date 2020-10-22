@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/fontawesome/brands.css">
+    <script async="" src="js/main.js"></script>
+</head>
+<body>
+    <div class="slideshow-container">
+        <div id="mobile-header" class="header">
+            <button onclick="myFunction()" class="burger">
+                <span class="bars"></span>
+            </button>
+            <a href="/" class="mhk-logo-mob"></a>
+            <div class="content">
+                <div class="btn-group">
+                    <a href="/" class="btn" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="/" class="btn" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="/" class="btn" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <ul class="nav">
+                    <li><a href="/" class="link">Shop</a></li>
+                    <li><a href="/" class="link">Plan My Kitchen</a></li>
+                    <li><a href="/" class="mhk-logo"></a></li>
+                    <li><a href="/" class="link">About Us</a></li>
+                    <li><a href="/" class="link">Gallery</a></li>
+                </ul>
+                <button class="btn-order"><span class="title">My Order</span><i class="fas fa-shopping-cart"></i></button>
+            </div>
+        </div>
+        <div class="slides slide1 fade">
+            <div class="dd">
+                <label>Design and order your new kitchen online today</label>
+                <h1>Bespoke & made to measure handmade kitchen design</h1>
+                <button class="btn">order now</button>
+            </div>
+        </div>
+        <div class="slides slide2 fade">
+            <div class="dd">
+                <label>Design and order your new kitchen online today</label>
+                <h1>Bespoke & made to measure handmade kitchen design</h1>
+                <button class="btn">Order Now</button>
+            </div>
+        </div>
+        <div class="slide-bars">
+            <span class="bar" onclick="currentSlide(1)"></span>
+            <span class="bar" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+    <div class="intro-container">
+        <div class="pic"></div>
+        <div class="dd">
+            <label>Quality Craftmanship from build to delivery</label>
+            <h2>Discover the beauty of a handmade kitchen</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget est sit amet sapien venenatis maximus vel in urna. Nam mauris arcu, feugiat in finibus vitae, sollicitudin id purus. Ut imperdiet, magna eu pharetra tincidunt, mauris purus ultrices.</p>
+            <button class="btn">About Us</button>
+        </div>
+    </div>
+    <div class="feedback-container">
+        <div class="feedback fade">
+            <label>What Our Customers Say</label>
+            <h3>Over 35 years experience designing handmade kitchens</h3>
+            <p>Since my first contact I have received a very high level of customer service and advice with my kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as planned.</p>
+            <span class="by">Jane, Dundee</span>
+            <button class="btn">Frequently Asked Questions</button>
+        </div>
+        <div class="feedback fade">
+            <label>What Our Customers Say</label>
+            <h3>Over 70 years experience designing handmade kitchens</h3>
+            <p>Since my first contact I have received a very high level of customer service and advice with my kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as planned.</p>
+            <span class="by">Jane, Dundee</span>
+            <button class="btn">Frequently Asked Questions</button>
+        </div>
+        <button class="btn-prev" onclick="plusFeedback(-1, 1)"></button>
+        <button class="btn-next" onclick="plusFeedback(1, 1)"></button>
+    </div>
+    <div class="gallery-preview">
+        <h4>Customer Gallery</h4>
+        <ul>
+            <li><a href="/" class="gallery-pic"><img src="img/gallery_pic1.jpg" /></a></li>
+            <li><a href="/" class="gallery-pic"><img src="img/gallery_pic2.jpg" /></a></li>
+            <li><a href="/" class="gallery-pic"><img src="img/gallery_pic3.jpg" /></a></li>
+            <li><a href="/" class="gallery-pic"><img src="img/gallery_pic4.jpg" /></a></li>
+        </ul>
+        <button class="btn">View More</button>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <div class="mhk-logo"></div>
+            <div class="nav">
+                <div class="col">
+                    <h5>About</h5>
+                    <ul>
+                        <li><a href="/">Shop</a></li>
+                        <li><a href="/">Plan My Kitchen</a></li>
+                        <li><a href="/">About Us</a></li>
+                        <li><a href="/">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Service</h5>
+                    <ul>
+                        <li><a href="/">FAQ</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li><a href="/">How to Buy</a></li>
+                        <li><a href="/">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Info</h5>
+                    <ul>
+                        <li><a href="/">Delivery</a></li>
+                        <li><a href="/">Terms</a></li>
+                        <li><a href="/">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Follow</h5>
+                    <ul class="social">
+                        <li><a href="/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p>Copyright Online MTC Home Kitchens 2018 - All rights reserved.</p>
+                <p>Responsive website design, Development & Hosting by mtc.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
