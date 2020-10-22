@@ -1,0 +1,327 @@
+.header {
+    max-width: 1300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+
+    .burger, .mhk-logo-mob {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .btn-group, .btn-order {
+            width: 192px;
+        }
+
+        .btn-group {
+            display: flex;
+            align-items: center;
+            height: 50px;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 28px;
+                height: 28px;
+
+                .fab {
+                    color: $white-color;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            width: calc(100% - 384px);
+
+            li {
+                display: flex;
+                justify-content: center;
+                padding: 0 20px;
+
+                .link {
+                    font-size: $font-size-xs;
+                    letter-spacing: 3px;
+                    color: $white-color;
+                    text-transform: uppercase;
+                    line-height: 18px;
+                    font-weight: 300;
+                    text-align: center;
+                }
+
+                .mhk-logo {
+                    display: block;
+                    margin: 0 120px;
+                    width: 84px;
+                    height: 33px;
+                    background: url('../img/mhk-logo.svg') no-repeat center;
+                    background-size: 84px auto;
+                }
+            }
+        }
+
+        .btn-order {
+            @include btn-md;
+            @include btn-alt;
+            @include btn-light;
+            line-height: 48px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1340px) {
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+
+        .content > ul > li > .mhk-logo {
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .content {
+            .btn-group, .btn-order {
+                width: 160px;
+            }
+            
+            ul {
+                width: calc(100% - 320px);
+
+                li {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 860px) {
+        .content {
+            .btn-group, .btn-order {
+                width: 84px;
+            }
+
+            .btn-order {
+                margin-left: 34px;
+                width: 50px;
+
+                .title {
+                    display: none;
+                }
+
+                .fas {
+                    margin-left: 0;
+                }
+            }
+            
+            ul {
+                width: calc(100% - 168px);
+
+                li {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        .mhk-logo-mob {
+            z-index: 11;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 38px;
+            width: 84px;
+            height: 33px;
+            background: url('../img/mhk-logo.svg') no-repeat center;
+            background-size: 84px auto;
+        }
+
+        .burger {
+            position: absolute;
+            z-index: 11;
+            display: flex;
+            align-items: center;
+            top: 38px;
+            right: 0;
+            width: 33px;
+            height: 32px;
+            padding: 0;
+            border: none;
+            background: transparent;
+
+            .bars {
+                position: relative;
+                width: 33px;
+                height: 2px;
+                background: $white-color;
+
+                &:before, &:after {
+                    position: absolute;
+                    left: 0;
+                    width: 33px;
+                    height: 2px;
+                    content:'';
+                    background: $white-color;
+                    transform: rotate(0deg);
+                }
+
+                &:before {
+                    top: 15px;
+                }
+
+                &:after {
+                    bottom: 15px;
+                }
+            }
+        }
+
+        .content {
+            position: absolute;
+            display: none;
+            top: -100%;
+            height: calc(100% - 110px);
+        }
+
+        &.open {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            border: none;
+            background: $white-color;
+            
+            .mhk-logo-mob {
+                left: 20px;
+                transition: background-image 0.3s ease-in-out;
+                background: url('../img/mhk-logo-dark.svg') no-repeat center;
+                background-size: 84px auto;
+            }
+            
+            .burger {
+                right: 20px;
+                
+                .bars {
+                    transition: all 0.3s ease-in-out;
+                    background: rgba(255,255,255,0);
+                    
+                    &:before, &:after {
+                        top: 0;
+                        background: $primary-color;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    
+                    &:before {
+                        transform: rotate(45deg);
+                    }
+                    
+                    &:after {
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+
+            .content {
+                display: block;
+                top: 110px;
+                width: calc(100% - 40px);
+                padding: 0 20px;
+                transition: all 0.3s ease-in-out;
+
+                .btn-group {
+                    width: 100%;
+                    margin-left: -10px;
+
+                    .btn > .fab {
+                        color: $primary-color;
+
+                        &:hover {
+                            color: $secondary-color;
+                            transition: color 0.3s ease-in-out;
+                        }
+                    }
+                }
+
+                ul {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    flex-wrap: wrap;
+                    padding-bottom: 20px;
+
+                    li {
+                        width: 100%;
+                        padding: 0;
+
+                        .link {
+                            display: block;
+                            width: 100%;
+                            padding: 10px 0;
+                            color: $primary-color;
+                            text-align: left;
+
+                            &:hover {
+                                color: $secondary-color;
+                                transition: color 0.3s ease-in-out;
+                            }
+                        }
+
+                        .mhk-logo {
+                            display: none;
+                        }
+                    }
+                }
+
+                .btn-order {
+                    margin-left: 0;
+                    width: 100%;
+                    color: $secondary-color;
+                    border-color: $secondary-color;
+                    
+                    .title {
+                        display: inline-block;
+                    }
+
+                    .fas {
+                        margin-left: 10px;
+                    }
+
+                    &:hover {
+                        color: $white-color;
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slideshow-container {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+
+        &.open {
+            position: fixed;
+            left: 0;
+            max-width: 100%;
+            transform: translateX(0);
+        }
+    }
+}

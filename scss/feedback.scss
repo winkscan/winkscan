@@ -1,0 +1,197 @@
+.feedback-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    background: $grey-color1;
+
+    .feedback {
+        margin: 0 auto;
+        max-width: 600px;
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+        text-align: center;
+
+        label {
+            @include label;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 9px 0;
+            display: block;
+            font-size: $font-size-xlg1;
+            color: $primary-color;
+            line-height: 42px;
+            font-weight: 700;
+        }
+
+        p, .by {
+            display: block;
+            font-size: $font-size-md;
+            line-height: 32px;
+            color: $grey-color3;
+        }
+        
+        p {
+            padding: 15px 0;
+            font-size: $font-size-md;
+            line-height: 32px;
+        }
+
+        .by {
+            font-size: $font-size-sm;
+            line-height: 28px;
+        }
+
+        .btn {
+            margin-top: 30px;
+            @include btn-lg;
+            @include btn-main;
+        }
+
+        &.fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 5s;
+            animation-name: fade;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+        }
+          
+        @-webkit-keyframes fade {
+            0% {opacity: 0}
+            10% {opacity: 1}
+            90% {opacity: 1}
+            100% {opacity: 0}
+        }
+          
+        @keyframes fade {
+            0% {opacity: 0}
+            10% {opacity: 1}
+            90% {opacity: 1}
+            100% {opacity: 0}
+        }
+    }
+
+    .btn-prev, .btn-next {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        width: 35px;
+        height: 70px;
+        border: none;
+
+        &:before, &:after {
+            position: absolute;
+            width: 2px;
+            height: 50px;
+            background: $secondary-color;
+            content:'';
+        }
+
+        &:hover {
+            &:before, &:after {
+                background: $secondary-color-hover;
+                transition: background-color 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .btn-prev {
+        transform: translate(-575px,-35px);
+
+        &:before {
+            top: -7px;
+            transform: rotate(45deg);
+        }
+        
+        &:after {
+            bottom: -7px;
+            transform: rotate(-45deg);
+        }
+    }
+    
+    .btn-next {
+        transform: translate(575px,-35px);
+
+        &:before {
+            bottom: -7px;
+            transform: rotate(45deg);
+        }
+        
+        &:after {
+            top: -7px;
+            transform: rotate(-45deg);
+        }
+    }
+
+    @media screen and (max-width: 1320px) {
+        .btn-prev, .btn-next {
+            transform: translate(0,-35px);
+        }
+        
+        .btn-prev {
+            left: 40px;
+        }
+        
+        .btn-next {
+            left: inherit;
+            right: 40px;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .feedback {
+            max-width: 100%;
+            width: calc(100% - 210px);
+            padding: 40px 105px;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        .feedback {
+            width: calc(100% - 90px);
+            padding: 40px 45px;
+
+            p {
+                width: calc(100% - 40px);
+                padding: 15px 20px;
+            }
+        }
+        
+        .btn-prev, .btn-next {
+            width: 25px;
+            height: 50px;
+    
+            &:before, &:after {
+                height: 36px;
+            }
+        }
+        
+        .btn-prev {
+            left: 20px;
+
+            &:before {
+                top: -5px;
+            }
+            
+            &:after {
+                bottom: -5px;
+            }
+        }
+        
+        .btn-next {
+            left: inherit;
+            right: 20px;
+
+            &:before {
+                bottom: -5px;
+            }
+            
+            &:after {
+                top: -5px;
+            }
+        }
+    }
+}

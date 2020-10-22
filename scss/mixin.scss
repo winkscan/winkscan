@@ -1,0 +1,54 @@
+@mixin btn-lg {
+    text-transform: uppercase;
+    padding: 0 55px;
+    height: $btn-size-lg;
+    font-size: $font-size-sm;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+@mixin btn-md {
+    text-transform: uppercase;
+    height: $btn-size-md;
+    font-size: $font-size-xs;
+    border-radius: 25px;
+    letter-spacing: 3px;
+    line-height: 18px;
+}
+
+@mixin btn-main {
+    border: none;
+    color: $white-color;
+    background: $secondary-color;
+
+    &:hover {
+        transition: all 0.3s ease-in-out;
+        background: $secondary-color-hover;
+    }
+}
+
+@mixin btn-alt {
+    background: transparent;
+    border: 1px solid;
+}
+
+@mixin btn-light {
+    color: $white-color;
+    border-color: $white-color;
+
+    &:hover {
+        color: $primary-color;
+        background: $white-color;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@mixin label {
+    text-transform: uppercase;
+    font-size: $font-size-xs;
+    color: $secondary-color;
+    letter-spacing: 3px;
+    line-height: 18px;
+    font-weight: 300;
+}

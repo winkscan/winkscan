@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import 'variables.scss';
+@import 'mixin.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'slider.scss';
+@import 'intro.scss';
+@import 'feedback.scss';
+@import 'gallery-preview.scss';
+@import "fontawesome.scss";
+@import "brands.scss";
+@import "solid.scss";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, 'Roboto', Arial, Verdana;
+}
+
+button, a {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

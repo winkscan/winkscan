@@ -1,0 +1,76 @@
+.intro-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2px 0;
+    background: $white-color;
+
+    .pic {
+        width: 50%;
+        height: 666px;
+        background: url('../img/intro.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .dd {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        max-width: 560px;
+        width: calc(100% - 90px);
+        padding: 20px 20px 20px 70px;
+
+        label {
+            display: block;
+            padding: 6px 0;
+            @include label;
+        }
+
+        h2 {
+            margin: 0;
+            display: block;
+            font-size: $font-size-xlg2;
+            color: $primary-color;
+            line-height: 52px;
+            font-weight: 700;
+        }
+
+        p {
+            display: block;
+            padding-top: 28px;
+            font-size: $font-size-sm;
+            color: $grey-color3;
+            line-height: 28px;
+        }
+
+        .btn {
+            margin-top: 30px;
+            @include btn-lg;
+            @include btn-main;
+        }
+    }
+
+    @media screen and (max-width: 1320px) {
+        .dd {
+            max-width: calc(50% - 120px);
+            padding: 20px 50px 20px 70px;
+        }
+    }
+    
+    @media screen and (max-width: 760px) {
+        .pic {
+            order: 2;
+            width: 100%;
+            height: 420px;
+        }
+        
+        .dd {
+            order: 1;
+            max-width: calc(100% - 40px);
+            width: calc(100% - 40px);
+            padding: 40px 20px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+}

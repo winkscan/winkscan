@@ -1,0 +1,147 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: $primary-color;
+
+    .slides {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: calc(100% - 40px);
+        height: 860px;
+        padding: 40px 20px 0 20px;
+
+        .dd {
+            position: relative;
+            z-index: 3;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1300px;
+            width: 100%;
+            color: $white-color;
+            justify-content: center;
+            text-align: center;
+
+            label {
+                display: block;
+                margin-bottom: 6px;
+                width: 100%;
+                font-size: $font-size-xs;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-weight: 300;
+            }
+
+            h1 {
+                display: block;
+                margin: 0 15%;
+                width: 70%;
+                font-size: $font-size-xlg3;
+                letter-spacing: -1px;
+                font-weight: 700;
+                line-height: 58px;
+            }
+
+            .btn {
+                margin-top: 30px;
+                @include btn-lg;
+                @include btn-main;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.33);
+
+                &:hover {
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+                }
+            }
+        }
+
+        &:before {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            content:'';
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+        }
+
+        &.slide1, &.slide2 {
+            position: relative;
+            z-index: 1;
+        }
+        
+        &.slide1 {
+            background: url('../img/cover_pic1.jpg') no-repeat center;
+            background-size: cover;
+        }
+        
+        &.slide2 {
+            background: url('../img/cover_pic2.jpg') no-repeat center;
+            background-size: cover;
+        }
+
+        &.fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 5s;
+            animation-name: fade;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+        }
+          
+        @-webkit-keyframes fade {
+            0% {opacity: 0.2}
+            5% {opacity: 1}
+            95% {opacity: 1}
+            100% {opacity: 0.2}
+        }
+          
+        @keyframes fade {
+            0% {opacity: 0.2}
+            5% {opacity: 1}
+            95% {opacity: 1}
+            100% {opacity: 0.2}
+        }
+    }
+
+    .slide-bars {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        z-index: 4;
+        display: flex;
+        width: 100%;
+        height: 5px;
+        justify-content: center;
+
+        .bar {
+            margin: 0 5px;
+            width: 50px;
+            height: 5px;
+            border-radius: 2.5px;
+            background: $white-color;
+
+            &.active {
+                background: $secondary-color;
+            }
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        min-height: 736px;
+        height: auto;
+
+        .slides {
+            height: 586px;
+            padding: 110px 20px 40px 20px;
+
+            h1 {
+                margin: 0;
+                width: 100%;
+                font-size: $font-size-xlg2;
+            }
+        }
+    }
+}
