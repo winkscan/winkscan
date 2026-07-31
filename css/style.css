@@ -1,0 +1,526 @@
+/* ===== yedu — landing page styles ===== */
+
+:root {
+  /* Brand palette — matches src/theme/tokens.js in the app */
+  --accent: #2550EB;
+  --accent-deep: #1C45E6;
+  --accent-pink: #FF383C;
+  --black: #0F1312;
+  --grey100: #565656;
+  --grey75: #9E9E9E;
+  --grey50: #EEF0EF;
+  --white: #FFFFFF;
+  --light-tint: #EDF0FF;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 40px;
+  --radius-pill: 999px;
+
+  --edge: 20px;
+  --max-width: 1180px;
+
+  --shadow-card: 0 20px 40px -12px rgba(15, 19, 18, 0.18);
+  --shadow-soft: 0 8px 24px -8px rgba(15, 19, 18, 0.12);
+
+  --font: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--black);
+  background: var(--white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg { max-width: 100%; display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--edge);
+}
+
+section { position: relative; }
+
+/* ---------- Typography ---------- */
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+h1 { font-size: clamp(2.1rem, 6vw, 3.6rem); }
+h2 { font-size: clamp(1.7rem, 4.2vw, 2.6rem); }
+h3 { font-size: 1.25rem; }
+
+p { margin: 0; line-height: 1.6; color: var(--grey100); }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(37, 80, 235, 0.08);
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 28px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--black);
+  color: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); }
+
+.btn-accent {
+  background: var(--accent);
+  color: var(--white);
+  box-shadow: 0 12px 28px -10px rgba(37, 80, 235, 0.55);
+}
+.btn-accent:hover { transform: translateY(-2px); background: var(--accent-deep); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--black);
+  border: 1.5px solid var(--grey50);
+}
+.btn-ghost:hover { border-color: var(--grey75); }
+
+.btn-small { padding: 10px 18px; font-size: 0.9rem; }
+
+/* ---------- Nav ---------- */
+
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 18px 0;
+  transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+}
+.nav.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 rgba(15, 19, 18, 0.06);
+  padding: 12px 0;
+}
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo { display: flex; align-items: center; }
+.logo-svg { height: 26px; width: auto; color: var(--accent); }
+
+.nav-right { display: flex; align-items: center; gap: 14px; }
+
+.lang-switch {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--grey50);
+  color: var(--black);
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 8px 30px 8px 14px;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23565656' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 14px;
+}
+.lang-switch:hover { background-color: var(--white); box-shadow: 0 0 0 1.5px var(--grey50) inset; }
+.lang-switch:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- Hero ---------- */
+/* Two rounded panels side by side (image + solid color), à la cabify.com's split hero. */
+
+.hero {
+  padding: 110px var(--edge) 0;
+}
+
+.hero-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.hero-panel {
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  position: relative;
+  min-height: 420px;
+  display: flex;
+}
+
+.hero-panel-image {
+  background: var(--light-tint);
+}
+.hero-photo {
+  position: absolute;
+  inset: -6% 0;
+  width: 100%;
+  height: 112%;
+  object-fit: cover;
+  will-change: transform;
+}
+
+.hero-panel-color {
+  background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+  color: var(--white);
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 36px;
+}
+.hero-panel-color h1 { color: var(--white); margin-bottom: 18px; }
+.hero-panel-color p.lead {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  max-width: 440px;
+}
+.hero-ctas { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 22px; }
+.hero-note {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.chip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--white);
+}
+.chip-link svg { width: 14px; height: 14px; }
+.chip-link.on-light { color: var(--accent); }
+
+/* ---------- Generic image placeholder ---------- */
+
+.placeholder-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  background: var(--grey50);
+  border: 1.5px dashed var(--grey75);
+  border-radius: var(--radius-lg);
+  color: var(--grey75);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+.placeholder-img svg { width: 32px; height: 32px; opacity: 0.6; }
+
+/* ---------- Stats bar ---------- */
+
+.stats {
+  padding: 40px 0;
+}
+.stats .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.stat-num {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--grey100);
+  margin-top: 4px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+/* ---------- Why yedu — tinted section: one visual + icon list, cabify's "¿Por qué elegir…" ---------- */
+
+.why {
+  padding: 110px 0;
+  background: var(--light-tint);
+  border-radius: var(--radius-2xl);
+  margin: 0 var(--edge);
+}
+.why .container { max-width: calc(var(--max-width) - 40px); }
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.why-visual { aspect-ratio: 4 / 3; }
+.why-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+.why-copy .eyebrow { margin-bottom: 24px; }
+
+.why-list { display: flex; flex-direction: column; gap: 28px; margin-bottom: 36px; }
+.why-item { display: flex; gap: 16px; align-items: flex-start; }
+.why-icon {
+  flex-shrink: 0;
+  width: 44px; height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-soft);
+}
+.why-icon svg { width: 22px; height: 22px; color: var(--accent); }
+.why-item h3 { margin-bottom: 6px; font-size: 1.05rem; }
+.why-item p { font-size: 0.95rem; }
+
+.store-badges { display: flex; flex-wrap: wrap; gap: 12px; }
+.store-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--black);
+  color: var(--white);
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+}
+.store-badge svg { width: 20px; height: 20px; }
+.store-badge strong { display: block; font-size: 0.95rem; }
+.store-badge.disabled { background: var(--grey50); color: var(--grey75); }
+
+/* ---------- Single feature callout — cabify's "Un nuevo concepto…" ---------- */
+
+.feature-single {
+  padding: 110px 0;
+}
+.feature-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.feature-copy .eyebrow { margin-bottom: 16px; }
+.feature-copy h2 { margin-bottom: 16px; }
+.feature-copy p { font-size: 1.05rem; margin-bottom: 20px; }
+.feature-visual { aspect-ratio: 4 / 3; }
+.feature-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* ---------- Security-style split section — cabify's "Tu seguridad, nuestro compromiso" ---------- */
+
+.security { padding: 40px 0 110px; }
+.security-head {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.security-head p { font-size: 1.05rem; }
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.step {
+  background: var(--white);
+  border: 1px solid var(--grey50);
+  border-radius: var(--radius-lg);
+  padding: 32px 26px;
+}
+.step-num {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--light-tint);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.step h3 { margin-bottom: 10px; }
+
+/* ---------- CTA + footer — merged into one continuous color block, cabify-style ---------- */
+
+.cta-footer {
+  margin: 0 var(--edge);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  background: linear-gradient(180deg, var(--accent-deep), var(--accent));
+  color: var(--white);
+  overflow: hidden;
+}
+
+.cta-banner {
+  padding: 100px var(--edge) 70px;
+  text-align: center;
+}
+.cta-banner .eyebrow {
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.cta-banner h2 { color: var(--white); margin-bottom: 28px; max-width: 620px; margin-left: auto; margin-right: auto; }
+.cta-banner .btn-primary { background: var(--black); color: var(--white); }
+.cta-banner .btn-primary:hover { background: #000; }
+
+/* ---------- Footer ---------- */
+/* Base styling assumes a plain light page (used standalone on privacy.html); the .cta-footer
+   variant below overrides it for the dark banner it's merged with on the landing page. */
+
+footer { padding: 40px 0; }
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--grey50);
+  margin-bottom: 24px;
+}
+.footer-brand .logo { margin-bottom: 12px; }
+.footer-brand p { max-width: 320px; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.footer-links a { color: var(--grey100); }
+.footer-links a:hover { color: var(--accent); }
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--grey75);
+}
+
+.cta-footer footer { padding: 0 0 40px; }
+.cta-footer .footer-top {
+  padding: 48px 0 40px;
+  border-bottom: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+.cta-footer .logo-svg { color: var(--white); }
+.cta-footer .footer-brand p { color: rgba(255, 255, 255, 0.7); }
+.cta-footer .footer-links a { color: rgba(255, 255, 255, 0.85); }
+.cta-footer .footer-links a:hover { color: var(--white); }
+.cta-footer .footer-bottom { color: rgba(255, 255, 255, 0.55); }
+
+/* ---------- Privacy policy page ---------- */
+
+.policy-header {
+  padding: 150px 0 50px;
+  border-bottom: 1px solid var(--grey50);
+}
+.policy-header .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+.policy-content {
+  padding: 60px 0 100px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.policy-content section { margin-bottom: 36px; }
+.policy-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+.policy-content p {
+  color: var(--grey100);
+  margin-bottom: 14px;
+  white-space: pre-line;
+}
+.policy-content p:last-child { margin-bottom: 0; }
+.policy-intro { color: var(--grey100); margin-bottom: 40px; font-size: 1.02rem; }
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 720px) {
+  .stats .container { grid-template-columns: repeat(4, 1fr); }
+  .steps { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .hero-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hero-panel { min-height: 540px; }
+
+  .why-grid { grid-template-columns: 0.9fr 1.1fr; gap: 72px; }
+
+  .feature-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  .feature-row.reverse .feature-copy { order: 2; }
+  .feature-row.reverse .feature-visual { order: 1; }
+
+  .security-head { grid-template-columns: 1fr 1fr; align-items: end; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .phone-frame { transform: none !important; }
+}
