@@ -479,7 +479,7 @@ footer { padding: 40px 0; }
   font-size: 0.95rem;
 }
 .policy-content {
-  padding: 60px 0 100px;
+  padding: 60px var(--edge) 100px;
   max-width: 760px;
   margin: 0 auto;
 }
