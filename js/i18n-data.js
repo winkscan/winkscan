@@ -64,7 +64,7 @@ window.YEDU_I18N = {
       "photoAlt": "yedu — switching between tram and bus"
     },
     "steps": {
-      "title": "Three steps to your bus",
+      "title": "Three steps to your ride",
       "lead": "Everything you need for the ride is designed so you don’t waste time waiting at the stop.",
       "items": [
         {
@@ -203,7 +203,7 @@ window.YEDU_I18N = {
       "photoAlt": "yedu — pārslēgšanās starp tramvaju un autobusu"
     },
     "steps": {
-      "title": "Trīs soļi līdz autobusam",
+      "title": "Trīs soļi līdz braucienam",
       "lead": "Viss, kas vajadzīgs braucienam, ir izdomāts tā, lai netērētu laiku, gaidot pieturā.",
       "items": [
         {
@@ -342,7 +342,7 @@ window.YEDU_I18N = {
       "photoAlt": "yedu — переключение между трамваем и автобусом"
     },
     "steps": {
-      "title": "Три шага до автобуса",
+      "title": "Три шага до транспорта",
       "lead": "Всё, что нужно для поездки, продумано так, чтобы не тратить время на ожидание на остановке.",
       "items": [
         {
@@ -481,7 +481,7 @@ window.YEDU_I18N = {
       "photoAlt": "yedu — перемикання між трамваєм і автобусом"
     },
     "steps": {
-      "title": "Три кроки до автобуса",
+      "title": "Три кроки до транспорту",
       "lead": "Все, що потрібно для поїздки, продумано так, щоб не витрачати час на очікування на зупинці.",
       "items": [
         {
@@ -620,7 +620,7 @@ window.YEDU_I18N = {
       "photoAlt": "yedu — przełączanie między tramwajem a autobusem"
     },
     "steps": {
-      "title": "Trzy kroki do autobusu",
+      "title": "Trzy kroki do transportu",
       "lead": "Wszystko, co potrzebne do podróży, zaprojektowano tak, aby nie tracić czasu na czekanie na przystanku.",
       "items": [
         {
