@@ -2,15 +2,15 @@
 window.YEDU_I18N = {
   "en": {
     "meta": {
-      "title": "yedu — public transport in Daugavpils",
-      "description": "yedu shows live tram and bus schedules in Daugavpils, nearby stops on the map, and arrival times."
+      "title": "yedu — public transport in Latvia",
+      "description": "yedu shows live public transport schedules across Latvian cities, nearby stops on the map, and arrival times."
     },
     "nav": {
       "download": "Download"
     },
     "hero": {
       "title": "Your ride shows up on time. Now you will too.",
-      "lead": "yedu shows live tram and bus schedules in Daugavpils, the nearest stops on the map, and arrival times — in one simple app.",
+      "lead": "yedu shows live public transport schedules across Latvian cities, the nearest stops on the map, and arrival times — in one simple app.",
       "ctaPrimary": "Get it on Google Play",
       "ctaNote": "Free · Android · currently in testing",
       "ctaMore": "Learn more",
@@ -18,12 +18,12 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "40+",
-        "label": "tram and bus routes"
+        "num": "90+",
+        "label": "routes across every city"
       },
       {
-        "num": "2",
-        "label": "types of transport in one app"
+        "num": "4",
+        "label": "cities in one app"
       },
       {
         "num": "5",
@@ -39,7 +39,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Live schedule",
-          "body": "How many minutes until your tram or bus arrives — no manual math, no guessing from a paper timetable."
+          "body": "How many minutes until your ride arrives — no manual math, no guessing from a paper timetable."
         },
         {
           "title": "Stops near you",
@@ -58,8 +58,8 @@ window.YEDU_I18N = {
     },
     "feature": {
       "eyebrow": "All in one",
-      "title": "Trams and buses — together",
-      "body": "This schedule has lived on the carrier’s website for years — in tables that would make anyone’s head spin. yedu takes the same data and turns it into what a schedule should be: glance at a stop, and you already know when to go.",
+      "title": "Every route, together",
+      "body": "These schedules have lived on carriers’ websites for years — in tables that would make anyone’s head spin. yedu takes the same data and turns it into what a schedule should be: glance at a stop, and you already know when to go.",
       "cta": "Get yedu",
       "photoAlt": "yedu — switching between tram and bus"
     },
@@ -69,7 +69,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Open the map",
-          "body": "The app instantly shows the tram and bus stops closest to you."
+          "body": "The app instantly shows the stops closest to you."
         },
         {
           "title": "Pick a stop",
@@ -87,7 +87,7 @@ window.YEDU_I18N = {
       "button": "Get it on Google Play"
     },
     "footer": {
-      "tagline": "Daugavpils public transport, finally in one place.",
+      "tagline": "Latvian public transport, finally in one place.",
       "linkFeatures": "Features",
       "linkHow": "How it works",
       "linkPrivacy": "Privacy Policy",
@@ -106,7 +106,7 @@ window.YEDU_I18N = {
       "sections": [
         {
           "heading": "1. What data we process",
-          "body": "1.1. Location. The App requests permission to access the device's location (GPS) to determine the nearest tram/bus stop and show it on the map. This data is processed directly on your device and is not transmitted to or stored by us.\n\n1.2. Walking route calculation. When you select a specific stop on the map, the coordinates of your current location and of the selected stop are sent to the third-party OSRM service (demo server router.project-osrm.org) to calculate a walking route to the stop. We do not control this third-party service and are not responsible for its own data processing practices.\n\n1.3. App settings. Your selected interface language is stored locally on your device and is not transmitted to us or to third parties.\n\n1.4. Advertising. The App uses the Google AdMob advertising service to display ads. As part of AdMob's operation, Google may collect and process data such as the device's advertising identifier, IP address, general device characteristics, and ad interaction data — for the purpose of ad delivery and measurement, and, with your consent, ad personalization. Processing of this data is governed by Google's own Privacy Policy (policies.google.com/privacy). Users in the European Economic Area and the United Kingdom will be asked for consent to personalized advertising in accordance with GDPR requirements before such ads are shown.\n\n1.5. We do NOT collect or store: name, email address, phone number, payment details, trip history, or route search history — the App has no server of its own and no user accounts."
+          "body": "1.1. Location. The App requests permission to access the device's location (GPS) to determine the nearest public transport stop and show it on the map. This data is processed directly on your device and is not transmitted to or stored by us.\n\n1.2. Walking route calculation. When you select a specific stop on the map, the coordinates of your current location and of the selected stop are sent to the third-party OSRM service (demo server router.project-osrm.org) to calculate a walking route to the stop. We do not control this third-party service and are not responsible for its own data processing practices.\n\n1.3. App settings. Your selected interface language is stored locally on your device and is not transmitted to us or to third parties.\n\n1.4. Advertising. The App uses the Google AdMob advertising service to display ads. As part of AdMob's operation, Google may collect and process data such as the device's advertising identifier, IP address, general device characteristics, and ad interaction data — for the purpose of ad delivery and measurement, and, with your consent, ad personalization. Processing of this data is governed by Google's own Privacy Policy (policies.google.com/privacy). Users in the European Economic Area and the United Kingdom will be asked for consent to personalized advertising in accordance with GDPR requirements before such ads are shown.\n\n1.5. We do NOT collect or store: name, email address, phone number, payment details, trip history, or route search history — the App has no server of its own and no user accounts."
         },
         {
           "heading": "2. Device permissions",
@@ -141,15 +141,15 @@ window.YEDU_I18N = {
   },
   "lv": {
     "meta": {
-      "title": "yedu — sabiedriskais transports Daugavpilī",
-      "description": "yedu rāda aktuālo tramvaju un autobusu sarakstu Daugavpilī, tuvākās pieturas kartē un ierašanās laiku."
+      "title": "yedu — sabiedriskais transports Latvijā",
+      "description": "yedu rāda aktuālo sabiedriskā transporta sarakstu Latvijas pilsētās, tuvākās pieturas kartē un ierašanās laiku."
     },
     "nav": {
       "download": "Lejupielādēt"
     },
     "hero": {
       "title": "Tavs transports pienāk laikā. Tagad arī tu to zināsi.",
-      "lead": "yedu rāda aktuālo Daugavpils tramvaju un autobusu sarakstu, tuvākās pieturas kartē un laiku līdz ierašanās brīdim — vienā vienkāršā lietotnē.",
+      "lead": "yedu rāda aktuālo Latvijas pilsētu sabiedriskā transporta sarakstu, tuvākās pieturas kartē un laiku līdz ierašanās brīdim — vienā vienkāršā lietotnē.",
       "ctaPrimary": "Lejupielādēt Google Play",
       "ctaNote": "Bez maksas · Android · šobrīd testēšanā",
       "ctaMore": "Uzzināt vairāk",
@@ -157,12 +157,12 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "40+",
-        "label": "tramvaju un autobusu maršrutu"
+        "num": "90+",
+        "label": "maršrutu visās pilsētās"
       },
       {
-        "num": "2",
-        "label": "transporta veidi vienā lietotnē"
+        "num": "4",
+        "label": "pilsētas vienā lietotnē"
       },
       {
         "num": "5",
@@ -178,7 +178,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Saraksts reālajā laikā",
-          "body": "Cik minūtēs pienāks tramvajs vai autobuss — bez pašrocīgas rēķināšanas un minējumiem pēc papīra saraksta."
+          "body": "Cik minūtēs pienāks tavs transports — bez pašrocīgas rēķināšanas un minējumiem pēc papīra saraksta."
         },
         {
           "title": "Pieturas tev tuvumā",
@@ -197,8 +197,8 @@ window.YEDU_I18N = {
     },
     "feature": {
       "eyebrow": "Viss vienuviet",
-      "title": "Tramvaji un autobusi — kopā",
-      "body": "Šis saraksts jau sen dzīvo pārvadātāja mājaslapā — tabulās, kurās pats velns kāju lauztu. yedu ņem tos pašus datus un pārvērš tajā, kam sarakstam vajadzētu būt: paskaties uz pieturu — un jau zini, cikos braukt.",
+      "title": "Visi maršruti — kopā",
+      "body": "Šie saraksti jau sen dzīvo pārvadātāju mājaslapās — tabulās, kurās pats velns kāju lauztu. yedu ņem tos pašus datus un pārvērš tajā, kam sarakstam vajadzētu būt: paskaties uz pieturu — un jau zini, cikos braukt.",
       "cta": "Lejupielādēt yedu",
       "photoAlt": "yedu — pārslēgšanās starp tramvaju un autobusu"
     },
@@ -208,7 +208,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Atver karti",
-          "body": "Lietotne uzreiz parāda tev tuvākās tramvaja un autobusa pieturas."
+          "body": "Lietotne uzreiz parāda tev tuvākās pieturas."
         },
         {
           "title": "Izvēlies pieturu",
@@ -226,7 +226,7 @@ window.YEDU_I18N = {
       "button": "Lejupielādēt Google Play"
     },
     "footer": {
-      "tagline": "Daugavpils sabiedriskais transports beidzot vienuviet.",
+      "tagline": "Latvijas sabiedriskais transports beidzot vienuviet.",
       "linkFeatures": "Iespējas",
       "linkHow": "Kā tas strādā",
       "linkPrivacy": "Konfidencialitātes politika",
@@ -245,7 +245,7 @@ window.YEDU_I18N = {
       "sections": [
         {
           "heading": "1. Kādus datus mēs apstrādājam",
-          "body": "1.1. Atrašanās vieta. Lietotne pieprasa piekļuvi ierīces atrašanās vietai (GPS), lai noteiktu tuvāko tramvaja/autobusa pieturu un parādītu to kartē. Šie dati tiek apstrādāti tieši jūsu ierīcē un netiek nosūtīti vai glabāti pie mums.\n\n1.2. Gājēju maršruta aprēķins. Kad izvēlaties konkrētu pieturu kartē, jūsu pašreizējās atrašanās vietas un izvēlētās pieturas koordinātas tiek nosūtītas trešās puses pakalpojumam OSRM (demonstrācijas serveris router.project-osrm.org), lai aprēķinātu gājēju maršrutu līdz pieturai. Mēs nekontrolējam šo trešās puses pakalpojumu un neesam atbildīgi par tā datu apstrādes praksi.\n\n1.3. Lietotnes iestatījumi. Jūsu izvēlētā saskarnes valoda tiek saglabāta lokāli jūsu ierīcē un netiek nosūtīta mums vai trešajām pusēm.\n\n1.4. Reklāma. Lietotne izmanto Google AdMob reklāmas pakalpojumu reklāmu rādīšanai. AdMob darbības ietvaros Google var apkopot un apstrādāt tādus datus kā ierīces reklāmas identifikators, IP adrese, vispārīgi ierīces raksturlielumi un mijiedarbības ar reklāmu dati — reklāmu rādīšanas un efektivitātes mērīšanas nolūkos, kā arī, ar jūsu piekrišanu, reklāmu personalizācijai. Šo datu apstrādi regulē atsevišķa Google konfidencialitātes politika (policies.google.com/privacy). Lietotājiem Eiropas Ekonomikas zonā un Apvienotajā Karalistē pirms šādu reklāmu rādīšanas tiks lūgta piekrišana personalizētai reklāmai atbilstoši GDPR prasībām.\n\n1.5. Mēs NEVĀCAM un neglabājam: vārdu, e-pasta adresi, tālruņa numuru, maksājumu datus, braucienu vēsturi, maršrutu meklēšanas vēsturi — Lietotnei nav sava servera un lietotāju kontu."
+          "body": "1.1. Atrašanās vieta. Lietotne pieprasa piekļuvi ierīces atrašanās vietai (GPS), lai noteiktu tuvāko sabiedriskā transporta pieturu un parādītu to kartē. Šie dati tiek apstrādāti tieši jūsu ierīcē un netiek nosūtīti vai glabāti pie mums.\n\n1.2. Gājēju maršruta aprēķins. Kad izvēlaties konkrētu pieturu kartē, jūsu pašreizējās atrašanās vietas un izvēlētās pieturas koordinātas tiek nosūtītas trešās puses pakalpojumam OSRM (demonstrācijas serveris router.project-osrm.org), lai aprēķinātu gājēju maršrutu līdz pieturai. Mēs nekontrolējam šo trešās puses pakalpojumu un neesam atbildīgi par tā datu apstrādes praksi.\n\n1.3. Lietotnes iestatījumi. Jūsu izvēlētā saskarnes valoda tiek saglabāta lokāli jūsu ierīcē un netiek nosūtīta mums vai trešajām pusēm.\n\n1.4. Reklāma. Lietotne izmanto Google AdMob reklāmas pakalpojumu reklāmu rādīšanai. AdMob darbības ietvaros Google var apkopot un apstrādāt tādus datus kā ierīces reklāmas identifikators, IP adrese, vispārīgi ierīces raksturlielumi un mijiedarbības ar reklāmu dati — reklāmu rādīšanas un efektivitātes mērīšanas nolūkos, kā arī, ar jūsu piekrišanu, reklāmu personalizācijai. Šo datu apstrādi regulē atsevišķa Google konfidencialitātes politika (policies.google.com/privacy). Lietotājiem Eiropas Ekonomikas zonā un Apvienotajā Karalistē pirms šādu reklāmu rādīšanas tiks lūgta piekrišana personalizētai reklāmai atbilstoši GDPR prasībām.\n\n1.5. Mēs NEVĀCAM un neglabājam: vārdu, e-pasta adresi, tālruņa numuru, maksājumu datus, braucienu vēsturi, maršrutu meklēšanas vēsturi — Lietotnei nav sava servera un lietotāju kontu."
         },
         {
           "heading": "2. Ierīces atļaujas",
@@ -280,15 +280,15 @@ window.YEDU_I18N = {
   },
   "ru": {
     "meta": {
-      "title": "yedu — общественный транспорт Даугавпилса",
-      "description": "yedu показывает актуальное расписание трамваев и автобусов Даугавпилса, ближайшие остановки на карте и время прибытия транспорта."
+      "title": "yedu — общественный транспорт Латвии",
+      "description": "yedu показывает актуальное расписание общественного транспорта латвийских городов, ближайшие остановки на карте и время прибытия."
     },
     "nav": {
       "download": "Скачать"
     },
     "hero": {
       "title": "Твой транспорт приходит вовремя. Теперь ты тоже будешь знать когда.",
-      "lead": "yedu показывает актуальное расписание трамваев и автобусов Даугавпилса, ближайшие остановки на карте и время до прибытия — в одном простом приложении.",
+      "lead": "yedu показывает актуальное расписание общественного транспорта латвийских городов, ближайшие остановки на карте и время до прибытия — в одном простом приложении.",
       "ctaPrimary": "Скачать в Google Play",
       "ctaNote": "Бесплатно · Android · сейчас в тестировании",
       "ctaMore": "Узнать больше",
@@ -296,12 +296,12 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "40+",
-        "label": "маршрутов трамваев и автобусов"
+        "num": "90+",
+        "label": "маршрутов во всех городах"
       },
       {
-        "num": "2",
-        "label": "вида транспорта в одном приложении"
+        "num": "4",
+        "label": "города в одном приложении"
       },
       {
         "num": "5",
@@ -317,7 +317,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Расписание в реальном времени",
-          "body": "Через сколько минут придёт трамвай или автобус — без пересчётов и догадок по бумажному расписанию."
+          "body": "Через сколько минут придёт твой транспорт — без пересчётов и догадок по бумажному расписанию."
         },
         {
           "title": "Остановки рядом с тобой",
@@ -336,8 +336,8 @@ window.YEDU_I18N = {
     },
     "feature": {
       "eyebrow": "Всё в одном",
-      "title": "Трамваи и автобусы — вместе",
-      "body": "Это расписание давно живёт на сайте перевозчика — в таблицах, в которых сам чёрт ногу сломит. yedu берёт те же данные и превращает их в то, чем расписание и должно быть: взглянул на остановку — и уже знаешь, во сколько ехать.",
+      "title": "Все маршруты — вместе",
+      "body": "Эти расписания давно живут на сайтах перевозчиков — в таблицах, в которых сам чёрт ногу сломит. yedu берёт те же данные и превращает их в то, чем расписание и должно быть: взглянул на остановку — и уже знаешь, во сколько ехать.",
       "cta": "Скачать yedu",
       "photoAlt": "yedu — переключение между трамваем и автобусом"
     },
@@ -347,7 +347,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Открой карту",
-          "body": "Приложение сразу покажет ближайшие к тебе остановки трамвая и автобуса."
+          "body": "Приложение сразу покажет ближайшие к тебе остановки."
         },
         {
           "title": "Выбери остановку",
@@ -365,7 +365,7 @@ window.YEDU_I18N = {
       "button": "Скачать в Google Play"
     },
     "footer": {
-      "tagline": "Общественный транспорт Даугавпилса, наконец, в одном месте.",
+      "tagline": "Общественный транспорт Латвии, наконец, в одном месте.",
       "linkFeatures": "Возможности",
       "linkHow": "Как это работает",
       "linkPrivacy": "Политика конфиденциальности",
@@ -384,7 +384,7 @@ window.YEDU_I18N = {
       "sections": [
         {
           "heading": "1. Какие данные мы обрабатываем",
-          "body": "1.1. Геолокация. Приложение запрашивает разрешение на доступ к местоположению устройства (GPS), чтобы определить ближайшую трамвайную/автобусную остановку и показать её на карте. Эти данные обрабатываются непосредственно на вашем устройстве и не передаются и не сохраняются нами.\n\n1.2. Построение пешего маршрута. Когда вы выбираете конкретную остановку на карте, координаты вашего текущего местоположения и координаты выбранной остановки передаются стороннему сервису OSRM (демо-сервер router.project-osrm.org) для расчёта пешего маршрута до остановки. Мы не контролируем этот сторонний сервис и не несём ответственности за его собственные практики обработки данных.\n\n1.3. Настройки приложения. Выбранный вами язык интерфейса сохраняется локально на вашем устройстве и не передаётся нам и третьим лицам.\n\n1.4. Реклама. Приложение использует рекламный сервис Google AdMob для показа рекламы. В рамках работы AdMob компания Google может собирать и обрабатывать такие данные, как рекламный идентификатор устройства, IP-адрес, общие технические характеристики устройства и данные о взаимодействии с рекламой — с целью показа и измерения эффективности рекламы, а также, при наличии вашего согласия, персонализации рекламы. Обработка этих данных регулируется отдельной Политикой конфиденциальности Google (policies.google.com/privacy). Пользователям из Европейской экономической зоны и Великобритании будет предложено дать согласие на персонализированную рекламу в соответствии с требованиями GDPR перед показом такой рекламы.\n\n1.5. Мы НЕ собираем и не храним: имя, адрес электронной почты, номер телефона, платёжные данные, историю поездок, историю поиска маршрутов — у Приложения нет собственного сервера и учётных записей пользователей."
+          "body": "1.1. Геолокация. Приложение запрашивает разрешение на доступ к местоположению устройства (GPS), чтобы определить ближайшую остановку общественного транспорта и показать её на карте. Эти данные обрабатываются непосредственно на вашем устройстве и не передаются и не сохраняются нами.\n\n1.2. Построение пешего маршрута. Когда вы выбираете конкретную остановку на карте, координаты вашего текущего местоположения и координаты выбранной остановки передаются стороннему сервису OSRM (демо-сервер router.project-osrm.org) для расчёта пешего маршрута до остановки. Мы не контролируем этот сторонний сервис и не несём ответственности за его собственные практики обработки данных.\n\n1.3. Настройки приложения. Выбранный вами язык интерфейса сохраняется локально на вашем устройстве и не передаётся нам и третьим лицам.\n\n1.4. Реклама. Приложение использует рекламный сервис Google AdMob для показа рекламы. В рамках работы AdMob компания Google может собирать и обрабатывать такие данные, как рекламный идентификатор устройства, IP-адрес, общие технические характеристики устройства и данные о взаимодействии с рекламой — с целью показа и измерения эффективности рекламы, а также, при наличии вашего согласия, персонализации рекламы. Обработка этих данных регулируется отдельной Политикой конфиденциальности Google (policies.google.com/privacy). Пользователям из Европейской экономической зоны и Великобритании будет предложено дать согласие на персонализированную рекламу в соответствии с требованиями GDPR перед показом такой рекламы.\n\n1.5. Мы НЕ собираем и не храним: имя, адрес электронной почты, номер телефона, платёжные данные, историю поездок, историю поиска маршрутов — у Приложения нет собственного сервера и учётных записей пользователей."
         },
         {
           "heading": "2. Разрешения устройства",
@@ -419,15 +419,15 @@ window.YEDU_I18N = {
   },
   "uk": {
     "meta": {
-      "title": "yedu — громадський транспорт Даугавпілса",
-      "description": "yedu показує актуальний розклад трамваїв і автобусів Даугавпілса, найближчі зупинки на карті та час прибуття."
+      "title": "yedu — громадський транспорт Латвії",
+      "description": "yedu показує актуальний розклад громадського транспорту латвійських міст, найближчі зупинки на карті та час прибуття."
     },
     "nav": {
       "download": "Завантажити"
     },
     "hero": {
       "title": "Твій транспорт приїжджає вчасно. Тепер і ти будеш знати коли.",
-      "lead": "yedu показує актуальний розклад трамваїв і автобусів Даугавпілса, найближчі зупинки на карті та час до прибуття — в одному простому застосунку.",
+      "lead": "yedu показує актуальний розклад громадського транспорту латвійських міст, найближчі зупинки на карті та час до прибуття — в одному простому застосунку.",
       "ctaPrimary": "Завантажити в Google Play",
       "ctaNote": "Безкоштовно · Android · зараз у тестуванні",
       "ctaMore": "Дізнатися більше",
@@ -435,12 +435,12 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "40+",
-        "label": "маршрутів трамваїв і автобусів"
+        "num": "90+",
+        "label": "маршрутів у всіх містах"
       },
       {
-        "num": "2",
-        "label": "види транспорту в одному застосунку"
+        "num": "4",
+        "label": "міста в одному застосунку"
       },
       {
         "num": "5",
@@ -456,7 +456,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Розклад у реальному часі",
-          "body": "Через скільки хвилин прийде трамвай чи автобус — без підрахунків і здогадок за паперовим розкладом."
+          "body": "Через скільки хвилин прийде твій транспорт — без підрахунків і здогадок за паперовим розкладом."
         },
         {
           "title": "Зупинки поруч із тобою",
@@ -475,8 +475,8 @@ window.YEDU_I18N = {
     },
     "feature": {
       "eyebrow": "Все в одному",
-      "title": "Трамваї та автобуси — разом",
-      "body": "Цей розклад давно живе на сайті перевізника — в таблицях, у яких сам чорт ногу зламає. yedu бере ті самі дані і перетворює їх на те, чим розклад і має бути: глянув на зупинку — і вже знаєш, о котрій їхати.",
+      "title": "Усі маршрути — разом",
+      "body": "Ці розклади давно живуть на сайтах перевізників — в таблицях, у яких сам чорт ногу зламає. yedu бере ті самі дані і перетворює їх на те, чим розклад і має бути: глянув на зупинку — і вже знаєш, о котрій їхати.",
       "cta": "Завантажити yedu",
       "photoAlt": "yedu — перемикання між трамваєм і автобусом"
     },
@@ -486,7 +486,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Відкрий карту",
-          "body": "Застосунок одразу покаже найближчі до тебе зупинки трамвая й автобуса."
+          "body": "Застосунок одразу покаже найближчі до тебе зупинки."
         },
         {
           "title": "Обери зупинку",
@@ -504,7 +504,7 @@ window.YEDU_I18N = {
       "button": "Завантажити в Google Play"
     },
     "footer": {
-      "tagline": "Громадський транспорт Даугавпілса нарешті в одному місці.",
+      "tagline": "Громадський транспорт Латвії нарешті в одному місці.",
       "linkFeatures": "Можливості",
       "linkHow": "Як це працює",
       "linkPrivacy": "Політика конфіденційності",
@@ -523,7 +523,7 @@ window.YEDU_I18N = {
       "sections": [
         {
           "heading": "1. Які дані ми обробляємо",
-          "body": "1.1. Геолокація. Застосунок запитує дозвіл на доступ до місцезнаходження пристрою (GPS), щоб визначити найближчу трамвайну/автобусну зупинку та показати її на карті. Ці дані обробляються безпосередньо на вашому пристрої та не передаються і не зберігаються нами.\n\n1.2. Розрахунок пішого маршруту. Коли ви обираєте конкретну зупинку на карті, координати вашого поточного місцезнаходження та обраної зупинки надсилаються стороньому сервісу OSRM (демо-сервер router.project-osrm.org) для розрахунку пішого маршруту до зупинки. Ми не контролюємо цей сторонній сервіс і не несемо відповідальності за його власні практики обробки даних.\n\n1.3. Налаштування застосунку. Обрана вами мова інтерфейсу зберігається локально на вашому пристрої і не передається нам чи третім особам.\n\n1.4. Реклама. Застосунок використовує рекламний сервіс Google AdMob для показу реклами. У рамках роботи AdMob компанія Google може збирати та обробляти такі дані, як рекламний ідентифікатор пристрою, IP-адресу, загальні технічні характеристики пристрою та дані про взаємодію з рекламою — з метою показу та вимірювання ефективності реклами, а також, за наявності вашої згоди, персоналізації реклами. Обробка цих даних регулюється окремою Політикою конфіденційності Google (policies.google.com/privacy). Користувачам з Європейської економічної зони та Великої Британії буде запропоновано надати згоду на персоналізовану рекламу відповідно до вимог GDPR перед показом такої реклами.\n\n1.5. Ми НЕ збираємо і не зберігаємо: ім'я, адресу електронної пошти, номер телефону, платіжні дані, історію поїздок, історію пошуку маршрутів — Застосунок не має власного сервера та облікових записів користувачів."
+          "body": "1.1. Геолокація. Застосунок запитує дозвіл на доступ до місцезнаходження пристрою (GPS), щоб визначити найближчу зупинку громадського транспорту та показати її на карті. Ці дані обробляються безпосередньо на вашому пристрої та не передаються і не зберігаються нами.\n\n1.2. Розрахунок пішого маршруту. Коли ви обираєте конкретну зупинку на карті, координати вашого поточного місцезнаходження та обраної зупинки надсилаються стороньому сервісу OSRM (демо-сервер router.project-osrm.org) для розрахунку пішого маршруту до зупинки. Ми не контролюємо цей сторонній сервіс і не несемо відповідальності за його власні практики обробки даних.\n\n1.3. Налаштування застосунку. Обрана вами мова інтерфейсу зберігається локально на вашому пристрої і не передається нам чи третім особам.\n\n1.4. Реклама. Застосунок використовує рекламний сервіс Google AdMob для показу реклами. У рамках роботи AdMob компанія Google може збирати та обробляти такі дані, як рекламний ідентифікатор пристрою, IP-адресу, загальні технічні характеристики пристрою та дані про взаємодію з рекламою — з метою показу та вимірювання ефективності реклами, а також, за наявності вашої згоди, персоналізації реклами. Обробка цих даних регулюється окремою Політикою конфіденційності Google (policies.google.com/privacy). Користувачам з Європейської економічної зони та Великої Британії буде запропоновано надати згоду на персоналізовану рекламу відповідно до вимог GDPR перед показом такої реклами.\n\n1.5. Ми НЕ збираємо і не зберігаємо: ім'я, адресу електронної пошти, номер телефону, платіжні дані, історію поїздок, історію пошуку маршрутів — Застосунок не має власного сервера та облікових записів користувачів."
         },
         {
           "heading": "2. Дозволи пристрою",
@@ -558,15 +558,15 @@ window.YEDU_I18N = {
   },
   "pl": {
     "meta": {
-      "title": "yedu — transport publiczny w Daugavpils",
-      "description": "yedu pokazuje aktualny rozkład tramwajów i autobusów w Daugavpils, najbliższe przystanki na mapie oraz czas do przyjazdu."
+      "title": "yedu — transport publiczny na Łotwie",
+      "description": "yedu pokazuje aktualny rozkład transportu publicznego w miastach Łotwy, najbliższe przystanki na mapie oraz czas do przyjazdu."
     },
     "nav": {
       "download": "Pobierz"
     },
     "hero": {
       "title": "Twój transport przyjeżdża na czas. Teraz Ty też będziesz to wiedzieć.",
-      "lead": "yedu pokazuje aktualny rozkład tramwajów i autobusów w Daugavpils, najbliższe przystanki na mapie i czas do przyjazdu — w jednej prostej aplikacji.",
+      "lead": "yedu pokazuje aktualny rozkład transportu publicznego w miastach Łotwy, najbliższe przystanki na mapie i czas do przyjazdu — w jednej prostej aplikacji.",
       "ctaPrimary": "Pobierz z Google Play",
       "ctaNote": "Za darmo · Android · obecnie w testach",
       "ctaMore": "Dowiedz się więcej",
@@ -574,12 +574,12 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "40+",
-        "label": "tras tramwajowych i autobusowych"
+        "num": "90+",
+        "label": "tras we wszystkich miastach"
       },
       {
-        "num": "2",
-        "label": "rodzaje transportu w jednej aplikacji"
+        "num": "4",
+        "label": "miasta w jednej aplikacji"
       },
       {
         "num": "5",
@@ -595,7 +595,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Rozkład w czasie rzeczywistym",
-          "body": "Za ile minut przyjedzie tramwaj lub autobus — bez liczenia i zgadywania na podstawie papierowego rozkładu."
+          "body": "Za ile minut przyjedzie Twój transport — bez liczenia i zgadywania na podstawie papierowego rozkładu."
         },
         {
           "title": "Przystanki blisko Ciebie",
@@ -614,8 +614,8 @@ window.YEDU_I18N = {
     },
     "feature": {
       "eyebrow": "Wszystko w jednym",
-      "title": "Tramwaje i autobusy — razem",
-      "body": "Ten rozkład od dawna istnieje na stronie przewoźnika — w tabelach, w których sam diabeł nogę złamie. yedu bierze te same dane i zamienia je w to, czym rozkład powinien być: spojrzałeś na przystanek — i już wiesz, o której jechać.",
+      "title": "Wszystkie trasy — razem",
+      "body": "Te rozkłady od dawna istnieją na stronach przewoźników — w tabelach, w których sam diabeł nogę złamie. yedu bierze te same dane i zamienia je w to, czym rozkład powinien być: spojrzałeś na przystanek — i już wiesz, o której jechać.",
       "cta": "Pobierz yedu",
       "photoAlt": "yedu — przełączanie między tramwajem a autobusem"
     },
@@ -625,7 +625,7 @@ window.YEDU_I18N = {
       "items": [
         {
           "title": "Otwórz mapę",
-          "body": "Aplikacja od razu pokaże najbliższe Ci przystanki tramwajowe i autobusowe."
+          "body": "Aplikacja od razu pokaże najbliższe Ci przystanki."
         },
         {
           "title": "Wybierz przystanek",
@@ -643,7 +643,7 @@ window.YEDU_I18N = {
       "button": "Pobierz z Google Play"
     },
     "footer": {
-      "tagline": "Transport publiczny Daugavpils, wreszcie w jednym miejscu.",
+      "tagline": "Transport publiczny Łotwy, wreszcie w jednym miejscu.",
       "linkFeatures": "Funkcje",
       "linkHow": "Jak to działa",
       "linkPrivacy": "Polityka prywatności",
@@ -662,7 +662,7 @@ window.YEDU_I18N = {
       "sections": [
         {
           "heading": "1. Jakie dane przetwarzamy",
-          "body": "1.1. Lokalizacja. Aplikacja prosi o dostęp do lokalizacji urządzenia (GPS), aby ustalić najbliższy przystanek tramwajowy/autobusowy i pokazać go na mapie. Te dane są przetwarzane bezpośrednio na Twoim urządzeniu i nie są przez nas przesyłane ani przechowywane.\n\n1.2. Obliczanie trasy pieszej. Gdy wybierzesz konkretny przystanek na mapie, współrzędne Twojej bieżącej lokalizacji oraz wybranego przystanku są wysyłane do zewnętrznej usługi OSRM (serwer demonstracyjny router.project-osrm.org) w celu obliczenia trasy pieszej do przystanku. Nie kontrolujemy tej usługi zewnętrznej i nie ponosimy odpowiedzialności za jej własne praktyki przetwarzania danych.\n\n1.3. Ustawienia aplikacji. Wybrany przez Ciebie język interfejsu jest przechowywany lokalnie na Twoim urządzeniu i nie jest przesyłany do nas ani osobom trzecim.\n\n1.4. Reklama. Aplikacja korzysta z usługi reklamowej Google AdMob do wyświetlania reklam. W ramach działania AdMob firma Google może zbierać i przetwarzać dane takie jak identyfikator reklamowy urządzenia, adres IP, ogólne cechy urządzenia oraz dane o interakcji z reklamami — w celu wyświetlania i pomiaru skuteczności reklam, a także, za Twoją zgodą, personalizacji reklam. Przetwarzanie tych danych podlega odrębnej Polityce prywatności Google (policies.google.com/privacy). Użytkownicy z Europejskiego Obszaru Gospodarczego i Wielkiej Brytanii zostaną poproszeni o zgodę na spersonalizowane reklamy zgodnie z wymogami RODO przed wyświetleniem takich reklam.\n\n1.5. NIE zbieramy ani nie przechowujemy: imienia, adresu e-mail, numeru telefonu, danych płatniczych, historii podróży, historii wyszukiwania tras — Aplikacja nie posiada własnego serwera ani kont użytkowników."
+          "body": "1.1. Lokalizacja. Aplikacja prosi o dostęp do lokalizacji urządzenia (GPS), aby ustalić najbliższy przystanek transportu publicznego i pokazać go na mapie. Te dane są przetwarzane bezpośrednio na Twoim urządzeniu i nie są przez nas przesyłane ani przechowywane.\n\n1.2. Obliczanie trasy pieszej. Gdy wybierzesz konkretny przystanek na mapie, współrzędne Twojej bieżącej lokalizacji oraz wybranego przystanku są wysyłane do zewnętrznej usługi OSRM (serwer demonstracyjny router.project-osrm.org) w celu obliczenia trasy pieszej do przystanku. Nie kontrolujemy tej usługi zewnętrznej i nie ponosimy odpowiedzialności za jej własne praktyki przetwarzania danych.\n\n1.3. Ustawienia aplikacji. Wybrany przez Ciebie język interfejsu jest przechowywany lokalnie na Twoim urządzeniu i nie jest przesyłany do nas ani osobom trzecim.\n\n1.4. Reklama. Aplikacja korzysta z usługi reklamowej Google AdMob do wyświetlania reklam. W ramach działania AdMob firma Google może zbierać i przetwarzać dane takie jak identyfikator reklamowy urządzenia, adres IP, ogólne cechy urządzenia oraz dane o interakcji z reklamami — w celu wyświetlania i pomiaru skuteczności reklam, a także, za Twoją zgodą, personalizacji reklam. Przetwarzanie tych danych podlega odrębnej Polityce prywatności Google (policies.google.com/privacy). Użytkownicy z Europejskiego Obszaru Gospodarczego i Wielkiej Brytanii zostaną poproszeni o zgodę na spersonalizowane reklamy zgodnie z wymogami RODO przed wyświetleniem takich reklam.\n\n1.5. NIE zbieramy ani nie przechowujemy: imienia, adresu e-mail, numeru telefonu, danych płatniczych, historii podróży, historii wyszukiwania tras — Aplikacja nie posiada własnego serwera ani kont użytkowników."
         },
         {
           "heading": "2. Uprawnienia urządzenia",
