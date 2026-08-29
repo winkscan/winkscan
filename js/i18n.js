@@ -1,6 +1,6 @@
 (function() {
   var STORAGE_KEY = 'yedu-lang';
-  var SUPPORTED = ['en', 'lv', 'ru', 'uk', 'pl'];
+  var SUPPORTED = ['en', 'lv', 'ru', 'uk', 'pl', 'lt', 'et'];
   var DEFAULT_LANG = 'en';
 
   function getLang() {

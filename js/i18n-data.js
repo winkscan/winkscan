@@ -2,15 +2,15 @@
 window.YEDU_I18N = {
   "en": {
     "meta": {
-      "title": "yedu — public transport in Latvia",
-      "description": "yedu shows live public transport schedules across Latvian cities, nearby stops on the map, and arrival times."
+      "title": "yedu — public transport in the Baltics",
+      "description": "yedu shows live public transport schedules across Baltic cities, nearby stops on the map, and arrival times."
     },
     "nav": {
       "download": "Download"
     },
     "hero": {
       "title": "Your ride shows up on time. Now you will too.",
-      "lead": "yedu shows live public transport schedules across Latvian cities, the nearest stops on the map, and arrival times — in one simple app.",
+      "lead": "yedu shows live public transport schedules across Baltic cities, the nearest stops on the map, and arrival times — in one simple app.",
       "ctaPrimary": "Get it on Google Play",
       "ctaNote": "Free · Android · currently in testing",
       "ctaMore": "Learn more",
@@ -18,15 +18,15 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "90+",
+        "num": "800+",
         "label": "routes across every city"
       },
       {
-        "num": "4",
+        "num": "20",
         "label": "cities in one app"
       },
       {
-        "num": "5",
+        "num": "7",
         "label": "interface languages"
       },
       {
@@ -87,7 +87,7 @@ window.YEDU_I18N = {
       "button": "Get it on Google Play"
     },
     "footer": {
-      "tagline": "Latvian public transport, finally in one place.",
+      "tagline": "Baltic public transport, finally in one place.",
       "linkFeatures": "Features",
       "linkHow": "How it works",
       "linkPrivacy": "Privacy Policy",
@@ -141,15 +141,15 @@ window.YEDU_I18N = {
   },
   "lv": {
     "meta": {
-      "title": "yedu — sabiedriskais transports Latvijā",
-      "description": "yedu rāda aktuālo sabiedriskā transporta sarakstu Latvijas pilsētās, tuvākās pieturas kartē un ierašanās laiku."
+      "title": "yedu — sabiedriskais transports Baltijā",
+      "description": "yedu rāda aktuālo sabiedriskā transporta sarakstu Baltijas pilsētās, tuvākās pieturas kartē un ierašanās laiku."
     },
     "nav": {
       "download": "Lejupielādēt"
     },
     "hero": {
       "title": "Tavs transports pienāk laikā. Tagad arī tu to zināsi.",
-      "lead": "yedu rāda aktuālo Latvijas pilsētu sabiedriskā transporta sarakstu, tuvākās pieturas kartē un laiku līdz ierašanās brīdim — vienā vienkāršā lietotnē.",
+      "lead": "yedu rāda aktuālo Baltijas pilsētu sabiedriskā transporta sarakstu, tuvākās pieturas kartē un laiku līdz ierašanās brīdim — vienā vienkāršā lietotnē.",
       "ctaPrimary": "Lejupielādēt Google Play",
       "ctaNote": "Bez maksas · Android · šobrīd testēšanā",
       "ctaMore": "Uzzināt vairāk",
@@ -157,15 +157,15 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "90+",
+        "num": "800+",
         "label": "maršrutu visās pilsētās"
       },
       {
-        "num": "4",
+        "num": "20",
         "label": "pilsētas vienā lietotnē"
       },
       {
-        "num": "5",
+        "num": "7",
         "label": "saskarnes valodas"
       },
       {
@@ -226,7 +226,7 @@ window.YEDU_I18N = {
       "button": "Lejupielādēt Google Play"
     },
     "footer": {
-      "tagline": "Latvijas sabiedriskais transports beidzot vienuviet.",
+      "tagline": "Baltijas sabiedriskais transports beidzot vienuviet.",
       "linkFeatures": "Iespējas",
       "linkHow": "Kā tas strādā",
       "linkPrivacy": "Konfidencialitātes politika",
@@ -280,15 +280,15 @@ window.YEDU_I18N = {
   },
   "ru": {
     "meta": {
-      "title": "yedu — общественный транспорт Латвии",
-      "description": "yedu показывает актуальное расписание общественного транспорта латвийских городов, ближайшие остановки на карте и время прибытия."
+      "title": "yedu — общественный транспорт стран Балтии",
+      "description": "yedu показывает актуальное расписание общественного транспорта городов Балтии, ближайшие остановки на карте и время прибытия."
     },
     "nav": {
       "download": "Скачать"
     },
     "hero": {
       "title": "Твой транспорт приходит вовремя. Теперь ты тоже будешь знать когда.",
-      "lead": "yedu показывает актуальное расписание общественного транспорта латвийских городов, ближайшие остановки на карте и время до прибытия — в одном простом приложении.",
+      "lead": "yedu показывает актуальное расписание общественного транспорта городов Балтии, ближайшие остановки на карте и время до прибытия — в одном простом приложении.",
       "ctaPrimary": "Скачать в Google Play",
       "ctaNote": "Бесплатно · Android · сейчас в тестировании",
       "ctaMore": "Узнать больше",
@@ -296,15 +296,15 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "90+",
+        "num": "800+",
         "label": "маршрутов во всех городах"
       },
       {
-        "num": "4",
+        "num": "20",
         "label": "города в одном приложении"
       },
       {
-        "num": "5",
+        "num": "7",
         "label": "языков интерфейса"
       },
       {
@@ -365,7 +365,7 @@ window.YEDU_I18N = {
       "button": "Скачать в Google Play"
     },
     "footer": {
-      "tagline": "Общественный транспорт Латвии, наконец, в одном месте.",
+      "tagline": "Общественный транспорт стран Балтии, наконец, в одном месте.",
       "linkFeatures": "Возможности",
       "linkHow": "Как это работает",
       "linkPrivacy": "Политика конфиденциальности",
@@ -419,15 +419,15 @@ window.YEDU_I18N = {
   },
   "uk": {
     "meta": {
-      "title": "yedu — громадський транспорт Латвії",
-      "description": "yedu показує актуальний розклад громадського транспорту латвійських міст, найближчі зупинки на карті та час прибуття."
+      "title": "yedu — громадський транспорт країн Балтії",
+      "description": "yedu показує актуальний розклад громадського транспорту балтійських міст, найближчі зупинки на карті та час прибуття."
     },
     "nav": {
       "download": "Завантажити"
     },
     "hero": {
       "title": "Твій транспорт приїжджає вчасно. Тепер і ти будеш знати коли.",
-      "lead": "yedu показує актуальний розклад громадського транспорту латвійських міст, найближчі зупинки на карті та час до прибуття — в одному простому застосунку.",
+      "lead": "yedu показує актуальний розклад громадського транспорту балтійських міст, найближчі зупинки на карті та час до прибуття — в одному простому застосунку.",
       "ctaPrimary": "Завантажити в Google Play",
       "ctaNote": "Безкоштовно · Android · зараз у тестуванні",
       "ctaMore": "Дізнатися більше",
@@ -435,15 +435,15 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "90+",
+        "num": "800+",
         "label": "маршрутів у всіх містах"
       },
       {
-        "num": "4",
+        "num": "20",
         "label": "міста в одному застосунку"
       },
       {
-        "num": "5",
+        "num": "7",
         "label": "мов інтерфейсу"
       },
       {
@@ -504,7 +504,7 @@ window.YEDU_I18N = {
       "button": "Завантажити в Google Play"
     },
     "footer": {
-      "tagline": "Громадський транспорт Латвії нарешті в одному місці.",
+      "tagline": "Громадський транспорт країн Балтії нарешті в одному місці.",
       "linkFeatures": "Можливості",
       "linkHow": "Як це працює",
       "linkPrivacy": "Політика конфіденційності",
@@ -558,15 +558,15 @@ window.YEDU_I18N = {
   },
   "pl": {
     "meta": {
-      "title": "yedu — transport publiczny na Łotwie",
-      "description": "yedu pokazuje aktualny rozkład transportu publicznego w miastach Łotwy, najbliższe przystanki na mapie oraz czas do przyjazdu."
+      "title": "yedu — transport publiczny w krajach bałtyckich",
+      "description": "yedu pokazuje aktualny rozkład transportu publicznego w miastach bałtyckich, najbliższe przystanki na mapie oraz czas do przyjazdu."
     },
     "nav": {
       "download": "Pobierz"
     },
     "hero": {
       "title": "Twój transport przyjeżdża na czas. Teraz Ty też będziesz to wiedzieć.",
-      "lead": "yedu pokazuje aktualny rozkład transportu publicznego w miastach Łotwy, najbliższe przystanki na mapie i czas do przyjazdu — w jednej prostej aplikacji.",
+      "lead": "yedu pokazuje aktualny rozkład transportu publicznego w miastach bałtyckich, najbliższe przystanki na mapie i czas do przyjazdu — w jednej prostej aplikacji.",
       "ctaPrimary": "Pobierz z Google Play",
       "ctaNote": "Za darmo · Android · obecnie w testach",
       "ctaMore": "Dowiedz się więcej",
@@ -574,15 +574,15 @@ window.YEDU_I18N = {
     },
     "stats": [
       {
-        "num": "90+",
+        "num": "800+",
         "label": "tras we wszystkich miastach"
       },
       {
-        "num": "4",
+        "num": "20",
         "label": "miasta w jednej aplikacji"
       },
       {
-        "num": "5",
+        "num": "7",
         "label": "języków interfejsu"
       },
       {
@@ -643,7 +643,7 @@ window.YEDU_I18N = {
       "button": "Pobierz z Google Play"
     },
     "footer": {
-      "tagline": "Transport publiczny Łotwy, wreszcie w jednym miejscu.",
+      "tagline": "Transport publiczny krajów bałtyckich, wreszcie w jednym miejscu.",
       "linkFeatures": "Funkcje",
       "linkHow": "Jak to działa",
       "linkPrivacy": "Polityka prywatności",
@@ -691,6 +691,284 @@ window.YEDU_I18N = {
         {
           "heading": "8. Kontakt",
           "body": "W przypadku wszelkich pytań dotyczących przetwarzania danych osobowych prosimy o kontakt: hello@yedu.eu."
+        }
+      ]
+    }
+  },
+  "lt": {
+    "meta": {
+      "title": "yedu — viešasis transportas Baltijos šalyse",
+      "description": "yedu rodo aktualius viešojo transporto tvarkaraščius Baltijos miestuose, artimiausias stoteles žemėlapyje ir atvykimo laiką."
+    },
+    "nav": {
+      "download": "Atsisiųsti"
+    },
+    "hero": {
+      "title": "Tavo transportas atvyksta laiku. Dabar ir tu tai žinosi.",
+      "lead": "yedu rodo aktualius Baltijos miestų viešojo transporto tvarkaraščius, artimiausias stoteles žemėlapyje ir laiką iki atvykimo — vienoje paprastoje programėlėje.",
+      "ctaPrimary": "Atsisiųsti iš Google Play",
+      "ctaNote": "Nemokama · Android · šiuo metu testuojama",
+      "ctaMore": "Sužinoti daugiau",
+      "photoAlt": "yedu programėlė telefone"
+    },
+    "stats": [
+      {
+        "num": "800+",
+        "label": "maršrutų visuose miestuose"
+      },
+      {
+        "num": "20",
+        "label": "miestų vienoje programėlėje"
+      },
+      {
+        "num": "7",
+        "label": "sąsajos kalbos"
+      },
+      {
+        "num": "24/7",
+        "label": "gyvas tvarkaraštis"
+      }
+    ],
+    "why": {
+      "eyebrow": "Kodėl yedu",
+      "items": [
+        {
+          "title": "Tvarkaraštis realiu laiku",
+          "body": "Po kiek minučių atvyks tavo transportas — be skaičiavimų ir spėjimų pagal popierinį tvarkaraštį."
+        },
+        {
+          "title": "Stotelės šalia tavęs",
+          "body": "Programėlė pati suranda artimiausias stoteles ir parodo pėsčiųjų maršrutą iki jų."
+        },
+        {
+          "title": "Mėgstamos stotelės",
+          "body": "Pažymėk stoteles šalia namų ar darbo ir peržiūrėk jų tvarkaraštį vienu palietimu."
+        }
+      ],
+      "storeAvailable": "Pasiekiama",
+      "storeGoogle": "Google Play",
+      "storeSoon": "Netrukus",
+      "storeApple": "App Store",
+      "photoAlt": "yedu — žemėlapis ir artimiausios stotelės"
+    },
+    "feature": {
+      "eyebrow": "Viskas vienoje vietoje",
+      "title": "Visi maršrutai — kartu",
+      "body": "Šie tvarkaraščiai jau seniai gyvena vežėjų svetainėse — lentelėse, kuriose pats velnias koją nusisuktų. yedu paima tuos pačius duomenis ir paverčia juos tuo, kuo tvarkaraštis ir turėtų būti: pažvelgei į stotelę — ir jau žinai, kada važiuoti.",
+      "cta": "Atsisiųsti yedu",
+      "photoAlt": "yedu — persijungimas tarp tramvajaus ir autobuso"
+    },
+    "steps": {
+      "title": "Trys žingsniai iki kelionės",
+      "lead": "Viskas, ko reikia kelionei, sukurta taip, kad nešvaistytum laiko laukdamas stotelėje.",
+      "items": [
+        {
+          "title": "Atverk žemėlapį",
+          "body": "Programėlė iškart parodo tau artimiausias stoteles."
+        },
+        {
+          "title": "Pasirink stotelę",
+          "body": "Pamatysi maršrutų sąrašą ir tikslų artimiausio transporto atvykimo laiką."
+        },
+        {
+          "title": "Spėk laiku",
+          "body": "Išeik iš namų tinkamu momentu — be papildomo laukimo stotelėje."
+        }
+      ]
+    },
+    "ctaBanner": {
+      "eyebrow": "yedu tavo mieste",
+      "title": "Išbandyk yedu jau šiandien",
+      "button": "Atsisiųsti iš Google Play"
+    },
+    "footer": {
+      "tagline": "Baltijos šalių viešasis transportas, pagaliau vienoje vietoje.",
+      "linkFeatures": "Galimybės",
+      "linkHow": "Kaip tai veikia",
+      "linkPrivacy": "Privatumo politika",
+      "copyright": "© 2026 yedu. Visos teisės saugomos."
+    },
+    "privacyPage": {
+      "title": "Privatumo politika — yedu",
+      "description": "yedu programėlės privatumo politika.",
+      "backLink": "← Į pradžią",
+      "h1": "Privatumo politika",
+      "updatedLabel": "Atnaujinta: "
+    },
+    "policy": {
+      "updated": "16.07.2026",
+      "intro": "Ši programėlė (toliau — „Programėlė“, „yedu“) yra sukurta ir platinama fizinio asmens (toliau — „Kūrėjas“, „mes“), neįsteigus juridinio asmens. Kontaktai klausimams dėl asmens duomenų apsaugos: hello@yedu.eu.",
+      "sections": [
+        {
+          "heading": "1. Kokius duomenis tvarkome",
+          "body": "1.1. Vieta. Programėlė prašo leidimo pasiekti įrenginio vietą (GPS), kad nustatytų artimiausią viešojo transporto stotelę ir parodytų ją žemėlapyje. Šie duomenys tvarkomi tiesiogiai jūsų įrenginyje ir nėra perduodami ar saugomi mūsų.\n\n1.2. Pėsčiųjų maršruto skaičiavimas. Kai pasirenkate konkrečią stotelę žemėlapyje, jūsų dabartinės vietos ir pasirinktos stotelės koordinatės siunčiamos trečiosios šalies paslaugai OSRM (demonstracinis serveris router.project-osrm.org), kad būtų apskaičiuotas pėsčiųjų maršrutas iki stotelės. Mes nekontroliuojame šios trečiosios šalies paslaugos ir neatsakome už jos duomenų tvarkymo praktiką.\n\n1.3. Programėlės nustatymai. Jūsų pasirinkta sąsajos kalba saugoma lokaliai jūsų įrenginyje ir nėra perduodama mums ar trečiosioms šalims.\n\n1.4. Reklama. Programėlė naudoja „Google AdMob“ reklamos paslaugą reklamoms rodyti. Veikiant AdMob, „Google“ gali rinkti ir tvarkyti tokius duomenis kaip įrenginio reklamos identifikatorius, IP adresas, bendrosios įrenginio charakteristikos ir sąveikos su reklama duomenys — reklamos pateikimo ir matavimo tikslais, o jums sutikus — reklamos personalizavimui. Šių duomenų tvarkymą reglamentuoja atskira „Google“ privatumo politika (policies.google.com/privacy). Naudotojų, esančių Europos ekonominėje erdvėje ir Jungtinėje Karalystėje, prieš rodant tokią reklamą bus prašoma sutikimo dėl personalizuotos reklamos pagal BDAR reikalavimus.\n\n1.5. Mes NERENKAME ir nesaugome: vardo, el. pašto adreso, telefono numerio, mokėjimo duomenų, kelionių istorijos ar maršrutų paieškos istorijos — Programėlė neturi nuosavo serverio ir naudotojų paskyrų."
+        },
+        {
+          "heading": "2. Įrenginio leidimai",
+          "body": "Programėlė gali prašyti leidimo pasiekti vietą (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION). Šis leidimas naudojamas išimtinai 1.1–1.2 punktuose aprašytoms funkcijoms. Bet kuriuo metu galite atšaukti šį leidimą per Android nustatymus — tokiu atveju su artimiausios stotelės nustatymu susijusios funkcijos nustos veikti, tačiau likusi funkcionalumo dalis (tvarkaraštis, stotelių sąrašas) liks prieinama."
+        },
+        {
+          "heading": "3. Duomenų perdavimas trečiosioms šalims",
+          "body": "Mes neparduodame ir neperduodame jūsų asmens duomenų trečiosioms šalims rinkodaros tikslais. 1.2 ir 1.4 punktuose nurodytus duomenis tiesiogiai tvarko trečiųjų šalių paslaugos (OSRM, „Google AdMob“) pagal savo privatumo politiką, nes tai būtina atitinkamam Programėlės funkcionalumui užtikrinti."
+        },
+        {
+          "heading": "4. Duomenų saugojimas ir ištrynimas",
+          "body": "Kadangi Programėlė neturi nuosavo serverio ir nekuria naudotojų paskyrų, mes centralizuotai nesaugome naudotojų asmens duomenų. Ištrynus Programėlę iš įrenginio, ištrinami visi lokaliai saugomi duomenys (įskaitant kalbos nustatymą)."
+        },
+        {
+          "heading": "5. Naudotojų amžius",
+          "body": "Programėlė sukurta kuo paprastesnė ir aiškesnė — taip pat ir moksleiviams, kuriems svarbu greitai sužinoti transporto tvarkaraštį nesigilinant į sudėtingą sąsają. Vis dėlto Programėlė nėra „vaikams skirta programėlė“ teisine prasme (nėra „skirta vaikams“ pagal Google Play, COPPA ir panašias taisykles) — tai universali viešojo transporto paslauga, kuria naudojasi miesto gyventojai visų amžiaus grupių.\n\nProgramėlei nereikia registracijos ar paskyros kūrimo, ir ji neprašo iš jokio naudotojo (nepriklausomai nuo amžiaus) jokios asmenį identifikuojančios informacijos — vardo, el. pašto, gimimo datos ir pan. Todėl mes neturime techninės galimybės nustatyti naudotojo amžiaus ir nerenkame asmens duomenų, kuriems reikėtų atskiro tėvų sutikimo.\n\nJei ateityje Programėlėje atsirastų reklama (žr. 1.4 punktą), ji būtų sukonfigūruota be personalizavimo / elgsenos taikinimo auditorijai, kurioje gali būti nepilnamečių, laikantis Google Play reikalavimų ir taikomų teisės aktų."
+        },
+        {
+          "heading": "6. Jūsų teisės",
+          "body": "Jei esate Europos ekonominėje erdvėje, jums taikomos BDAR numatytos teisės, įskaitant teisę susipažinti su savo duomenimis, juos ištaisyti ir ištrinti, taip pat teisę pateikti skundą duomenų apsaugos priežiūros institucijai. Kadangi Programėlė centralizuotai nesaugo asmens duomenų, norėdami pasinaudoti šiomis teisėmis, pirmiausia rekomenduojame peržiūrėti savo Android įrenginio privatumo nustatymus, o dėl kitų klausimų — susisiekti su mumis šio dokumento pradžioje nurodytais kontaktais."
+        },
+        {
+          "heading": "7. Šios politikos pakeitimai",
+          "body": "Retkarčiais galime atnaujinti šią politiką. Aktuali versija visada pasiekiama Programėlėje skiltyje „Paskyra“ → „Privatumo politika“."
+        },
+        {
+          "heading": "8. Kontaktai",
+          "body": "Dėl visų klausimų, susijusių su asmens duomenų tvarkymu, rašykite: hello@yedu.eu."
+        }
+      ]
+    }
+  },
+  "et": {
+    "meta": {
+      "title": "yedu — ühistransport Baltikumis",
+      "description": "yedu näitab Balti riikide linnade ühistranspordi reaalajas sõiduplaane, lähimaid peatusi kaardil ja saabumisaegu."
+    },
+    "nav": {
+      "download": "Laadi alla"
+    },
+    "hero": {
+      "title": "Sinu transport jõuab kohale õigel ajal. Nüüd tead sina ka, millal.",
+      "lead": "yedu näitab Balti riikide linnade ühistranspordi reaalajas sõiduplaane, lähimaid peatusi kaardil ja aega saabumiseni — ühes lihtsas rakenduses.",
+      "ctaPrimary": "Laadi alla Google Playst",
+      "ctaNote": "Tasuta · Android · praegu testimisel",
+      "ctaMore": "Loe lähemalt",
+      "photoAlt": "yedu rakendus telefonis"
+    },
+    "stats": [
+      {
+        "num": "800+",
+        "label": "liini igas linnas"
+      },
+      {
+        "num": "20",
+        "label": "linna ühes rakenduses"
+      },
+      {
+        "num": "7",
+        "label": "liidesekeelt"
+      },
+      {
+        "num": "24/7",
+        "label": "reaalajas sõiduplaan"
+      }
+    ],
+    "why": {
+      "eyebrow": "Miks yedu",
+      "items": [
+        {
+          "title": "Reaalajas sõiduplaan",
+          "body": "Mitme minuti pärast su transport saabub — ilma käsitsi arvutamise ja paberplaani järgi arvamiseta."
+        },
+        {
+          "title": "Peatused sinu lähedal",
+          "body": "Rakendus leiab ise lähimad peatused ja näitab sinna jalgsimarsruuti."
+        },
+        {
+          "title": "Lemmikpeatused",
+          "body": "Salvesta kodu või töö lähedal olevad peatused ja vaata nende sõiduplaani ühe puudutusega."
+        }
+      ],
+      "storeAvailable": "Saadaval",
+      "storeGoogle": "Google Play",
+      "storeSoon": "Peagi",
+      "storeApple": "App Store",
+      "photoAlt": "yedu — kaart ja lähimad peatused"
+    },
+    "feature": {
+      "eyebrow": "Kõik ühes kohas",
+      "title": "Kõik liinid — koos",
+      "body": "Need sõiduplaanid on juba aastaid elanud vedajate veebilehtedel — tabelites, milles kuradilgi jalg murduks. yedu võtab needsamad andmed ja muudab need selleks, mis sõiduplaan olema peaks: heidad pilgu peatusele — ja tead juba, mis ajal minna.",
+      "cta": "Laadi alla yedu",
+      "photoAlt": "yedu — trammi ja bussi vahel lülitamine"
+    },
+    "steps": {
+      "title": "Kolm sammu su sõiduni",
+      "lead": "Kõik, mida sõiduks vaja, on loodud nii, et sa ei kulutaks aega peatuses ootamisele.",
+      "items": [
+        {
+          "title": "Ava kaart",
+          "body": "Rakendus näitab kohe sulle lähimaid peatusi."
+        },
+        {
+          "title": "Vali peatus",
+          "body": "Näed liinide loendit ja lähima transpordi täpset saabumisaega."
+        },
+        {
+          "title": "Jõua õigeks ajaks",
+          "body": "Lahku kodust õigel hetkel — ilma lisaootamiseta peatuses."
+        }
+      ]
+    },
+    "ctaBanner": {
+      "eyebrow": "yedu sinu linnas",
+      "title": "Proovi yedu juba täna",
+      "button": "Laadi alla Google Playst"
+    },
+    "footer": {
+      "tagline": "Balti riikide ühistransport, lõpuks ühes kohas.",
+      "linkFeatures": "Võimalused",
+      "linkHow": "Kuidas see töötab",
+      "linkPrivacy": "Privaatsuspoliitika",
+      "copyright": "© 2026 yedu. Kõik õigused kaitstud."
+    },
+    "privacyPage": {
+      "title": "Privaatsuspoliitika — yedu",
+      "description": "yedu rakenduse privaatsuspoliitika.",
+      "backLink": "← Tagasi avalehele",
+      "h1": "Privaatsuspoliitika",
+      "updatedLabel": "Uuendatud: "
+    },
+    "policy": {
+      "updated": "16.07.2026",
+      "intro": "Selle rakenduse (edaspidi — „Rakendus“, „yedu“) on välja töötanud ja levitab eraisik (edaspidi — „Arendaja“, „meie“) ilma registreeritud juriidilise isikuta. Kontakt andmekaitseküsimuste jaoks: hello@yedu.eu.",
+      "sections": [
+        {
+          "heading": "1. Milliseid andmeid me töötleme",
+          "body": "1.1. Asukoht. Rakendus küsib luba pääseda ligi seadme asukohale (GPS), et määrata lähim ühistranspordi peatus ja kuvada see kaardil. Neid andmeid töödeldakse otse sinu seadmes ning neid meile ei edastata ega salvestata.\n\n1.2. Jalgsimarsruudi arvutamine. Kui valid kaardil kindla peatuse, saadetakse sinu praeguse asukoha ja valitud peatuse koordinaadid kolmanda osapoole teenusele OSRM (demoserver router.project-osrm.org), et arvutada jalgsimarsruut peatuseni. Me ei kontrolli seda kolmanda osapoole teenust ega vastuta selle enda andmetöötluspraktikate eest.\n\n1.3. Rakenduse seaded. Sinu valitud liidesekeel salvestatakse kohalikult sinu seadmesse ega edastata meile ega kolmandatele osapooltele.\n\n1.4. Reklaam. Rakendus kasutab reklaamide kuvamiseks Google AdMobi reklaamiteenust. AdMobi tegevuse käigus võib Google koguda ja töödelda selliseid andmeid nagu seadme reklaami-ID, IP-aadress, seadme üldised omadused ja reklaamiga suhtlemise andmed — reklaami edastamise ja mõõtmise eesmärgil ning sinu nõusolekul reklaami isikupärastamiseks. Nende andmete töötlemist reguleerib Google enda privaatsuspoliitika (policies.google.com/privacy). Euroopa Majanduspiirkonna ja Ühendkuningriigi kasutajatelt küsitakse enne selliste reklaamide kuvamist nõusolekut isikupärastatud reklaamiks vastavalt GDPR-i nõuetele.\n\n1.5. Me EI kogu ega salvesta: nime, e-posti aadressi, telefoninumbrit, makseandmeid, reisiajalugu ega marsruutide otsinguajalugu — Rakendusel pole oma serverit ega kasutajakontosid."
+        },
+        {
+          "heading": "2. Seadme load",
+          "body": "Rakendus võib küsida luba asukohale ligipääsuks (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION). Seda luba kasutatakse ainult punktides 1.1–1.2 kirjeldatud funktsioonide jaoks. Sa võid selle loa igal ajal Androidi seadetes tühistada — sel juhul lakkavad toimimast lähima peatuse määramisega seotud funktsioonid, kuid ülejäänud funktsionaalsus (sõiduplaan, peatuste nimekiri) jääb kättesaadavaks."
+        },
+        {
+          "heading": "3. Andmete jagamine kolmandate osapooltega",
+          "body": "Me ei müü ega jaga sinu isikuandmeid kolmandatele osapooltele turunduslikel eesmärkidel. Punktides 1.2 ja 1.4 nimetatud andmeid töötlevad otse kolmandate osapoolte teenused (OSRM, Google AdMob) vastavalt oma privaatsuspoliitikatele, kuna see on vajalik Rakenduse vastava funktsionaalsuse tagamiseks."
+        },
+        {
+          "heading": "4. Andmete säilitamine ja kustutamine",
+          "body": "Kuna Rakendusel pole oma serverit ega loo see kasutajakontosid, ei säilita me kasutajate isikuandmeid tsentraalselt. Rakenduse kustutamine seadmest kustutab kõik kohalikult salvestatud andmed (sh keeleseadistuse)."
+        },
+        {
+          "heading": "5. Kasutajate vanus",
+          "body": "Rakendus on loodud võimalikult lihtsana ja selgena — sealhulgas koolilastele, kellel on oluline kiiresti transpordi sõiduplaani vaadata ilma keerulise liidesega tegelemata. Sellegipoolest ei ole Rakendus õiguslikus mõttes „lasterakendus“ (mitte „lastele suunatud“ Google Play, COPPA ja sarnaste reeglite tähenduses) — see on üldkasutatav ühistranspordi teenus, mida kasutavad kõikvanuselised linnaelanikud.\n\nRakendus ei nõua registreerimist ega konto loomist ega küsi ühelgi kasutajal (olenemata vanusest) mingit isikut tuvastavat teavet — nime, e-posti, sünnikuupäeva jne. Seetõttu ei ole meil tehnilist võimalust kasutaja vanust kindlaks teha ning me ei kogu isikuandmeid, mis nõuaksid eraldi vanema nõusolekut.\n\nKui Rakendusse lisatakse tulevikus reklaam (vt punkt 1.4), seadistatakse see ilma isikupärastamise/käitumusliku suunamiseta sihtrühmale, kuhu võivad kuuluda alaealised, vastavalt Google Play nõuetele ja kohaldatavale õigusele."
+        },
+        {
+          "heading": "6. Sinu õigused",
+          "body": "Kui asud Euroopa Majanduspiirkonnas, on sul GDPR-ist tulenevad õigused, sealhulgas õigus oma andmetele ligi pääseda, neid parandada ja kustutada, samuti õigus esitada kaebus andmekaitse järelevalveasutusele. Kuna Rakendus ei säilita isikuandmeid tsentraalselt, soovitame nende õiguste kasutamiseks kõigepealt vaadata üle oma Androidi seadme privaatsusseaded ning muudes küsimustes võtta meiega ühendust käesoleva dokumendi alguses toodud kontaktandmetel."
+        },
+        {
+          "heading": "7. Muudatused selles poliitikas",
+          "body": "Võime seda poliitikat aeg-ajalt uuendada. Kehtiv versioon on alati Rakenduses kättesaadav jaotises „Konto“ → „Privaatsuspoliitika“."
+        },
+        {
+          "heading": "8. Kontakt",
+          "body": "Kõikide isikuandmete töötlemisega seotud küsimuste korral kirjuta: hello@yedu.eu."
         }
       ]
     }
