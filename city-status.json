@@ -1,0 +1,4 @@
+{
+  "_comment": "Per-city kill switch for the yedu app. List a city's key in disabledCities to hide it (the app falls back to the next-nearest enabled city and shows a one-time explanation) without needing a Play Store release. Takes effect for any user the next time they open the app. City keys match src/data/cities/index.js in the TramApp repo, e.g. riga, daugavpils, tallinn, vilnius.",
+  "disabledCities": []
+}
