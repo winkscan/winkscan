@@ -12,7 +12,7 @@ window.YEDU_I18N = {
       "title": "Your ride shows up on time. Now you will too.",
       "lead": "yedu shows live public transport schedules across Baltic cities, the nearest stops on the map, and arrival times — in one simple app.",
       "ctaPrimary": "Get it on Google Play",
-      "ctaNote": "Free · Android · currently in testing",
+      "ctaNote": "Free · Android",
       "ctaMore": "Learn more",
       "photoAlt": "yedu running on a phone"
     },
@@ -151,7 +151,7 @@ window.YEDU_I18N = {
       "title": "Tavs transports pienāk laikā. Tagad arī tu to zināsi.",
       "lead": "yedu rāda aktuālo Baltijas pilsētu sabiedriskā transporta sarakstu, tuvākās pieturas kartē un laiku līdz ierašanās brīdim — vienā vienkāršā lietotnē.",
       "ctaPrimary": "Lejupielādēt Google Play",
-      "ctaNote": "Bez maksas · Android · šobrīd testēšanā",
+      "ctaNote": "Bez maksas · Android",
       "ctaMore": "Uzzināt vairāk",
       "photoAlt": "yedu lietotne telefonā"
     },
@@ -290,7 +290,7 @@ window.YEDU_I18N = {
       "title": "Твой транспорт приходит вовремя. Теперь ты тоже будешь знать когда.",
       "lead": "yedu показывает актуальное расписание общественного транспорта городов Балтии, ближайшие остановки на карте и время до прибытия — в одном простом приложении.",
       "ctaPrimary": "Скачать в Google Play",
-      "ctaNote": "Бесплатно · Android · сейчас в тестировании",
+      "ctaNote": "Бесплатно · Android",
       "ctaMore": "Узнать больше",
       "photoAlt": "yedu в приложении на телефоне"
     },
@@ -429,7 +429,7 @@ window.YEDU_I18N = {
       "title": "Твій транспорт приїжджає вчасно. Тепер і ти будеш знати коли.",
       "lead": "yedu показує актуальний розклад громадського транспорту балтійських міст, найближчі зупинки на карті та час до прибуття — в одному простому застосунку.",
       "ctaPrimary": "Завантажити в Google Play",
-      "ctaNote": "Безкоштовно · Android · зараз у тестуванні",
+      "ctaNote": "Безкоштовно · Android",
       "ctaMore": "Дізнатися більше",
       "photoAlt": "yedu у застосунку на телефоні"
     },
@@ -568,7 +568,7 @@ window.YEDU_I18N = {
       "title": "Twój transport przyjeżdża na czas. Teraz Ty też będziesz to wiedzieć.",
       "lead": "yedu pokazuje aktualny rozkład transportu publicznego w miastach bałtyckich, najbliższe przystanki na mapie i czas do przyjazdu — w jednej prostej aplikacji.",
       "ctaPrimary": "Pobierz z Google Play",
-      "ctaNote": "Za darmo · Android · obecnie w testach",
+      "ctaNote": "Za darmo · Android",
       "ctaMore": "Dowiedz się więcej",
       "photoAlt": "yedu w aplikacji na telefonie"
     },
@@ -707,7 +707,7 @@ window.YEDU_I18N = {
       "title": "Tavo transportas atvyksta laiku. Dabar ir tu tai žinosi.",
       "lead": "yedu rodo aktualius Baltijos miestų viešojo transporto tvarkaraščius, artimiausias stoteles žemėlapyje ir laiką iki atvykimo — vienoje paprastoje programėlėje.",
       "ctaPrimary": "Atsisiųsti iš Google Play",
-      "ctaNote": "Nemokama · Android · šiuo metu testuojama",
+      "ctaNote": "Nemokama · Android",
       "ctaMore": "Sužinoti daugiau",
       "photoAlt": "yedu programėlė telefone"
     },
@@ -846,7 +846,7 @@ window.YEDU_I18N = {
       "title": "Sinu transport jõuab kohale õigel ajal. Nüüd tead sina ka, millal.",
       "lead": "yedu näitab Balti riikide linnade ühistranspordi reaalajas sõiduplaane, lähimaid peatusi kaardil ja aega saabumiseni — ühes lihtsas rakenduses.",
       "ctaPrimary": "Laadi alla Google Playst",
-      "ctaNote": "Tasuta · Android · praegu testimisel",
+      "ctaNote": "Tasuta · Android",
       "ctaMore": "Loe lähemalt",
       "photoAlt": "yedu rakendus telefonis"
     },
